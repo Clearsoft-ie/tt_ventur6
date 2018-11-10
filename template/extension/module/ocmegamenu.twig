@@ -82,7 +82,7 @@
                 <ul class="ul-top-items">
                     {% for top_item in items %}
                         {% if top_item.status %}
-                            <li class="li-top-item {{ top_item.item_align }}" style="float: {{ top_item.item_align }}">
+                            <li class="li-top-item {{ top_item.item_align }}" style="display: inline-block; width:auto; list-style: outside none none;">
                                 {% if top_item.has_link %}
                                     <a class="a-top-link" href="{{ top_item.link }}">
                                         {% if top_item.icon %}

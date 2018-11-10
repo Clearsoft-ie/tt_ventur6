@@ -4687,7 +4687,7 @@ label[for='input-quantity']{
 
 .list-inline, phone {
     margin-left: -5px;
-    padding-top: 15px;
+    line-height: 50px;
     color: black;
     font-family: 'Oswald',sans-serif;
     font-weight: 400;
@@ -4697,8 +4697,8 @@ label[for='input-quantity']{
 li.feefo:hover {background: rgba(0,0,0,0);}
 li.feefo
 {
-	vertical-align: middle;
-	padding-left: 200px;
+	vertical-align: bottom;
+	padding-left: 50px;
 }
 li.feefo > div,
 li.feefo > div .feefowidget-logo-container > img
